@@ -16,9 +16,9 @@
     </section>
     <form class="row d-flex align-items-center ui px-3">
       <fieldset
-        class="form-group col-lg-6 d-flex justify-content-between px-0 mb-3"
+        class="form-group col-lg-6 d-flex flex-wrap justify-content-between px-0 mb-3"
       >
-        <label for="input-lcd-nums">Tarjoa numerot</label>
+        <label class="" for="input-lcd-nums">Tarjoa numerot</label>
         <input
           id="input-lcd-nums"
           v-model="lcdString"
