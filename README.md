@@ -23,7 +23,9 @@ css-frameworkina bootstrap
 
 ### Kritiikki
 
-Vaikka numeroiden muodostus on nyt ajettu yhteen komponenttiin, parempi tuotantoversio saattaisi olla sellainen, jossa jokainen numero olisi oma komponenttinsa. Silloin koodi voisi olla luettavampaa, vaikka toistoa olisikin. Numeroiden käsittely olisi yksinkertaisempaa. Mutta tosiaan, tämä tarve on projektikohtainen.
+Vaikka numeroiden muodostus on nyt ajettu yhteen komponenttiin, parempi tuotantoversio saattaisi olla sellainen, jossa jokainen numero olisi oma komponenttinsa. Silloin koodi voisi olla luettavampaa, vaikka toistoa olisikin. Numeroiden käsittely olisi yksinkertaisempaa. Mutta tosiaan, tämä tarve on projektikohtainen ja riippuu aina tilanteesta, mikä on turhaa.
+
+En myöskään koodannut erillistä validaattoria numeroilla, vaan yksinkertaisesti ignoraan, jos käyttäjä syöttää muita merkkejä `Tarjoa numerot` -kenttään, kuin positiivisia digiteja.
 
 ## Build Setup
 
