@@ -4,6 +4,7 @@ Päätin toteuttaa tämän Nuxtilla ihan siksi, että olen frameworkia käyttän
 
 Käytännössähän tämän kokoinen demo ei vaadi mitään näin isoa ympärilleen, mutta päätin esitellä ehkä peruscasen ratkaisuani.
 
+`/dist` -kansiosta löytyy build.
 
 ## Rakenteesta
 
@@ -26,7 +27,7 @@ Vaikka numeroiden muodostus on nyt ajettu yhteen komponenttiin, parempi tuotanto
 
 ## Build Setup
 
-Heitin mukaan lintti-conffit ja buildin ihan siksi, jos joku haluaa käynnistää softan. Pelkän koodin ihmettelyn lisäksi.
+Heitin mukaan lintti-conffit ja buildin ihan siksi, jos joku haluaa käynnistää softan. Pelkän koodin ihmettelyn lisäksi. `/dist` -kansio sisältää buildin.
 
 ```bash
 # install dependencies
@@ -42,3 +43,5 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+
+Jos kaipaa nähdä jotain spesifimpää kataa tai muuta koodia, huudelkaa ihmeessä! Palailen arkeen joka tapauksessa.

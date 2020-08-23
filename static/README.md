@@ -1,3 +1,0 @@
-# STATIC
-
-Ei koodillisesti 

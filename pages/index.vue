@@ -27,7 +27,9 @@
           class="ui__input"
         />
       </fieldset>
-      <fieldset class="d-lg-flex justify-content-lg-between col-12 px-0">
+      <fieldset
+        class="d-lg-flex flex-wrap justify-content-lg-between col-12 px-0"
+      >
         <div
           class="form-group d-flex justify-content-between col-12 col-lg-6 mb-3 mr-lg-4 px-0"
         >
